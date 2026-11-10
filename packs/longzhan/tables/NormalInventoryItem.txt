@@ -1,0 +1,4 @@
+# 招式书「龙战于野」：FightBook（拳掌书），Skill 列填学会的招式 xk_s0003，图标 files/Image/Icon/Item/itxk0003.png
+#道具编号	道具名称	故事描述	道具价格	道具分类	道具稀有度	道具图示	对应技能	限制武器类型
+Id	Name	Story	Price	Category	Rarity	Icon	Skill	WeaponType
+itxk0003	龙战于野	「龙战于野，其血玄黄。」蓄满一口真气，方圆之内无所遁形。	5000	FightBook	2	itxk0003	xk_s0003	Fight

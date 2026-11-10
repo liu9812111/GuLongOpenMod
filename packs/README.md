@@ -4,7 +4,9 @@
 
 | 包 | 内容 | 作者 |
 |---|---|---|
-| [yinlong](yinlong/) | 示例：拳掌招式书「银龙推掌」 | James |
+| [yinlong](yinlong/) | 示例：拳掌招式书「亢龙有悔」（推掌 + 金龙，3 格直线贯穿） | James |
+| [shenlong](shenlong/) | 示例：拳掌招式书「神龙摆尾」（复制原版银枪穿云的动作和数值，改成 3 格宽直线） | James |
+| [longzhan](longzhan/) | 示例：拳掌招式书「龙战于野」（复制原版银龙啸天的动作、数值和范围，集气招） | James |
 | [devtools](devtools/) | 开发用：木桩测试敌人（F11 测试战斗） | James |
 
 安装：把文件夹复制到 `游戏目录\Mod\Packs\`（编译插件时默认自动复制）。

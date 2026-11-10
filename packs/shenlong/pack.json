@@ -1,0 +1,15 @@
+{
+  "id": "shenlong",
+  "name": "神龙摆尾",
+  "version": "1.0.0",
+  "authors": [
+    "James"
+  ],
+  "description": "示例包：拳掌招式书「神龙摆尾」。复制原版「银枪穿云」的动作和数值，攻击范围改成 3 格宽直线。",
+  "idPrefix": [
+    "xk_",
+    "itxk"
+  ],
+  "requires": [],
+  "order": 0
+}

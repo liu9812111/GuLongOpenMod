@@ -1,0 +1,4 @@
+# 招式书「神龙摆尾」：FightBook（拳掌书），Skill 列填学会的招式 xk_s0004，图标 files/Image/Icon/Item/itxk0004.png
+#道具编号	道具名称	故事描述	道具价格	道具分类	道具稀有度	道具图示	对应技能	限制武器类型
+Id	Name	Story	Price	Category	Rarity	Icon	Skill	WeaponType
+itxk0004	神龙摆尾	「神龙摆尾，回身横扫。」看似退让，实则掌劲横贯，三路齐至。	5000	FightBook	2	itxk0004	xk_s0004	Fight

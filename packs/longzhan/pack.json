@@ -1,0 +1,15 @@
+{
+  "id": "longzhan",
+  "name": "龙战于野",
+  "version": "1.0.0",
+  "authors": [
+    "James"
+  ],
+  "description": "示例包：拳掌招式书「龙战于野」。复制原版「银龙啸天」的动作、数值和范围，是一招集气招式。",
+  "idPrefix": [
+    "xk_",
+    "itxk"
+  ],
+  "requires": [],
+  "order": 0
+}

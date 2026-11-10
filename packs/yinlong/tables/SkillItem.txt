@@ -1,5 +1,6 @@
-# 招式「银龙推掌」：照抄原版 Fight_s0016 推掌的数值，AnimationName 换成改招生成的新演出 xk_yinlong（见 skillmod/xk_yinlong.json）
+# 招式「亢龙有悔」：数值照抄原版 Fight_s0016 推掌；攻击范围照原版「银枪穿云」改成前方 3 格直线贯穿（TargetArea=LineGroup，MinRange=1，MaxRange=3）。
+# AnimationName 是改招生成的新演出 xk_yinlong（见 skillmod/xk_yinlong.json）
 # 只写了用到的列，没写的列留空。列的含义见 docs/表格说明.md
 #Id	名称	备注	技能类型	学习等级	分类	AI判断用?	动作编号	演出时隐藏其他角色	可作为反击技能	伤害分类	技能施放类型	技能作用类型	是否消耗行动次数	伤害类型	基本伤害	伤害公式	架式伤害	内力伤害	仇恨值	破绽方向	消耗内力	冷却时间	消耗时序	集气所需时序	击退时序	目标单位对象	伤害范围形状	最大距离	最小距离	位移距离	溅射范围	波数	波段持续时序	波段单次落点格数	优先度
 Id	Name	Description	EffectType	LearningLevel	Category	BookCategory	AnimationName	HideOtherUnits	CanSetCounter	DamageType	SkillType	SkillEffect	IsExpendAction	DamageCategory	BaseDamage	DamageFormulaId	PostureDamage	ManaDamage	Hatred	FlawDir	NeedMp	CooldownTick	TickCost	RechargeTickCost	RepluseTick	TargetType	TargetArea	MaxRange	MinRange	PushDistance	SplattingRange	WaveCount	WaveDuration	HitCount	Priority
-xk_s0002	银龙推掌	推掌之中化出银龙，直冲敌阵。	Active	0	Fight	Attack	xk_yinlong	FALSE	TRUE	Damage	Immediately	Once	TRUE	Internal	25	str*0.27	1	0	0	0,1	22	0	100	0	0	Hostile	Ring	1	1	0	0	0	0	0	0
+xk_s0002	亢龙有悔	掌力刚猛无俦，化作金龙直贯前方三格，沿途敌人尽受其击。	Active	0	Fight	Attack	xk_yinlong	FALSE	TRUE	Damage	Immediately	Once	TRUE	Internal	25	str*0.27	1	0	0	0,1	22	0	100	0	0	Hostile	LineGroup	3	1	0	0	0	0	0	0

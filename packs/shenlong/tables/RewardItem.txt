@@ -1,0 +1,3 @@
+# 奖励：获得一本神龙摆尾。剧情里用 { 'RewardPack' : 'itxk0004_get', False, False, False, ''} 发放；测试时 Ctrl+F10 发放道具ID 填 itxk0004
+Id	Remark	IsShowMessage	Rewards
+itxk0004_get	获得招式书_神龙摆尾	TRUE	{ 'LogicalNode' : [ { 'RewardProps' : 'itxk0004', 1}  ], 0} 

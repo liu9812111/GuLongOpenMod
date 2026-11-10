@@ -92,7 +92,7 @@ namespace GuLongOpenMod
             foreach (var dir in roots.SelectMany(r => Directory.GetDirectories(r)))
             {
                 string json = Path.Combine(dir, "pack.json");
-                if (!File.Exists(json)) { Plugin.Log.LogWarning("[内容包] " + Path.GetFileName(dir) + " 没有 pack.json，已跳过"); continue; }
+                if (!File.Exists(json)) { Plugin.Log.LogWarning("[内容包] " + dir + " 里没有 pack.json，不是内容包，已跳过"); continue; }
                 try
                 {
                     var p = JsonConvert.DeserializeObject<PackInfo>(File.ReadAllText(json));

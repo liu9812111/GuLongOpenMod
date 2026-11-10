@@ -40,7 +40,9 @@
 ```
 plugin/      插件源码（C#，BepInEx 5）
 packs/       内容包，一个文件夹一个
-  yinlong/     示例：招式书「银龙推掌」
+  yinlong/     示例：招式书「亢龙有悔」
+  shenlong/    示例：招式书「神龙摆尾」
+  longzhan/    示例：招式书「龙战于野」
   devtools/    开发用：木桩测试敌人
 docs/        中文文档
 tools/       validate.py：内容包校验（提交前跑一下，GitHub 也会自动跑）

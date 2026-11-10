@@ -240,9 +240,11 @@ def main():
         info["_dir"], info["_name"] = d, name
         packs.append(info)
 
-    # Id 前缀不能和别的包重叠
+    # Id 前缀属于作者：不同作者的包之间不能重叠，同一作者的多个包可以共用
     for i, p in enumerate(packs):
         for q in packs[i + 1:]:
+            if set(p.get("authors") or []) & set(q.get("authors") or []):
+                continue
             for x in p.get("idPrefix") or []:
                 for y in q.get("idPrefix") or []:
                     if x.startswith(y) or y.startswith(x):

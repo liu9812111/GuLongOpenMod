@@ -1,0 +1,7 @@
+# 招式「神龙摆尾」：数值、附带效果（StatusEffect01）照抄原版「银枪穿云」na0025_s01；范围改成宽直线 3 格（TargetArea=WideLineGroup，MaxRange=3）
+# Category 从原版的 Spear（枪法）改成 Fight（拳掌），这样拳掌书能教、武学界面「拳掌」分页能看到
+# AnimationName 是改招复制出的演出 xk_shenlong（见 skillmod/xk_shenlong.json），以后改特效不影响原版
+# 只写了用到的列，没写的列留空。列的含义见 docs/表格说明.md
+#Id	名称	备注	技能类型	学习等级	分类	AI判断用?	动作编号	演出时隐藏其他角色	可作为反击技能	状态效果	伤害分类	技能施放类型	技能作用类型	是否消耗行动次数	伤害类型	基本伤害	伤害公式	架式伤害	内力伤害	仇恨值	破绽方向	消耗内力	冷却时间	消耗时序	集气所需时序	击退时序	目标单位对象	伤害范围形状	最大距离	最小距离	位移距离	溅射范围	波数	波段持续时序	波段单次落点格数	优先度
+Id	Name	Description	EffectType	LearningLevel	Category	BookCategory	AnimationName	HideOtherUnits	CanSetCounter	StatusEffect01	DamageType	SkillType	SkillEffect	IsExpendAction	DamageCategory	BaseDamage	DamageFormulaId	PostureDamage	ManaDamage	Hatred	FlawDir	NeedMp	CooldownTick	TickCost	RechargeTickCost	RepluseTick	TargetType	TargetArea	MaxRange	MinRange	PushDistance	SplattingRange	WaveCount	WaveDuration	HitCount	Priority
+xk_s0004	神龙摆尾	回身一掌如神龙摆尾，掌风横扫前方三格宽、三格长的区域。每命中1个敌方目标，暴击概率+20%	Active	0	Fight	Attack	xk_shenlong	FALSE	FALSE	na0025_s01	Damage	Immediately	Once	TRUE	External	56	con*0.98	1	0	0	2	72	1	100	0	0	Hostile	WideLineGroup	3	1	0	0	0	0	0	1
