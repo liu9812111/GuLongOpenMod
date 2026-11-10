@@ -1,0 +1,10 @@
+{
+  "id": "devtools",
+  "name": "开发工具",
+  "version": "1.0.0",
+  "authors": ["James"],
+  "description": "做内容时用的测试数据：把战斗测试员 ne9999 改成木桩，配合 F11 测试战斗使用。正常游玩可以不装。",
+  "idPrefix": ["dev_"],
+  "requires": [],
+  "order": -100
+}

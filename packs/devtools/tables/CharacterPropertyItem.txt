@@ -1,0 +1,5 @@
+# 把原版的「战斗测试员」ne9999 改成木桩：血很厚、不动、不打人。F11 测试战斗里的敌人就是它
+# 这是「修改原版行」的例子：Id 原表里已有，所以只改下面表头里写了的列，其他列保持原版
+#Id	描述	AI类型	力量	内劲	身法	灵巧	意志	气血	气血最大值	架式	架式最大值	移动格数	饰品01	初始武学	初始反击技
+Id	Remark	AIType	Str	Chi	Agi	Dex	Int	HP	Max_HP	Posture	MaxPosture	Move	Accessory01	DefaultSkillId	DefaultCounterSkill
+ne9999	战斗测试员(木桩)	Guard	1	1	1	1	1	999999	999999	99	99	0		Fight_s0000b	FightCounter

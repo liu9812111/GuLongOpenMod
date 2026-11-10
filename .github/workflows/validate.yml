@@ -1,0 +1,18 @@
+name: 内容包校验
+
+on:
+  push:
+    paths: ["packs/**", "tools/**", ".github/workflows/validate.yml"]
+  pull_request:
+    paths: ["packs/**", "tools/**", ".github/workflows/validate.yml"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: 校验内容包
+        run: python tools/validate.py

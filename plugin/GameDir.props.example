@@ -1,0 +1,8 @@
+<!-- 复制一份改名为 GameDir.props（不会上传到 GitHub），把下面改成你自己的游戏目录 -->
+<Project>
+  <PropertyGroup>
+    <GameDir>D:\Steam\steamapps\common\古龙风云录</GameDir>
+    <!-- 做内容、在游戏里设了「开发目录」的话，可以不让编译时复制内容包：去掉下一行的注释 -->
+    <!-- <CopyPacks>false</CopyPacks> -->
+  </PropertyGroup>
+</Project>

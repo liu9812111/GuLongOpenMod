@@ -1,0 +1,19 @@
+# 编译产物
+bin/
+obj/
+*.user
+.vs/
+.vscode/
+.idea/
+
+# 每个人自己的游戏路径
+plugin/GameDir.props
+
+# 校验工具 --dump 的输出、Python 缓存
+dump/
+__pycache__/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,3 @@
+# 奖励：获得一本银龙推掌。剧情里用 { 'RewardPack' : 'itxk0002_get', False, False, False, ''} 发放
+Id	Remark	IsShowMessage	Rewards
+itxk0002_get	获得招式书_银龙推掌	TRUE	{ 'LogicalNode' : [ { 'RewardProps' : 'itxk0002', 1}  ], 0} 

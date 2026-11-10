@@ -1,0 +1,4 @@
+# 招式书「银龙推掌」：分类 FightBook（拳掌书），Skill 列填学会的招式 Id，Icon 对应 files/Image/Icon/Item/itxk0002.png
+#道具编号	道具名称	故事描述	道具价格	道具分类	道具稀有度	道具图示	对应技能	限制武器类型
+Id	Name	Story	Price	Category	Rarity	Icon	Skill	WeaponType
+itxk0002	银龙推掌	「掌出如龙，银鳞破空。」推掌之中化出银龙，直冲敌阵的绝学。	5000	FightBook	2	itxk0002	xk_s0002	Fight

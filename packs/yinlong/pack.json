@@ -1,0 +1,10 @@
+{
+  "id": "yinlong",
+  "name": "银龙推掌",
+  "version": "1.0.0",
+  "authors": ["James"],
+  "description": "示例包：一本拳掌招式书「银龙推掌」。推掌的动作上加了一条金色的龙。可以照着它做自己的武学。",
+  "idPrefix": ["xk_", "itxk"],
+  "requires": [],
+  "order": 0
+}
